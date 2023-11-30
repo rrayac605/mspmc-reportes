@@ -1,0 +1,7 @@
+spring:
+  application:    
+    name: mspmc-reportes
+info: 
+  component: Microservicio de reportes
+    
+    

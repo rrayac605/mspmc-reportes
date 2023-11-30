@@ -1,0 +1,20 @@
+server:
+  port: 8049
+spring:
+  data:
+    mongodb:
+      authentication-database:   PMCUAT01
+      username: pmcmsconsulta
+      password: pmcmsconsulta0
+      database:  PMCUAT01
+      port: 27017
+      host: 10.100.8.80
+logging:
+  file: C:\Users\EDUARDO.VALERIANO\Documents\logs\pmc\ms-reportes\reportes.log
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    com.demo: INFO
+    org.hibernate: INFO
+    net.sf.jasperreports: DEBUG
+    mx.gob.imss.cit.pmc.mspmcreportes: DEBUG
