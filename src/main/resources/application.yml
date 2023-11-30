@@ -1,0 +1,27 @@
+server:
+  port: ${portMSReportes}
+spring:
+  data:
+    mongodb:
+      authentication-database:   ${authenticationdatabaseMongo}
+      username: ${usrMongoCambios} 
+      password: ${pwdMongoCambios}
+      database: ${databaseMongo}
+      port: ${portMongo}
+      host: ${hostMongo}
+logging:
+  file: ${fileLogReportes}
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    com.demo: INFO
+    org.hibernate: INFO
+    net.sf.jasperreports: DEBUG
+    mx.gob.imss.cit.pmc.mspmcreportes: DEBUG
+fileReportes: ${fileReportes}
+sftpHost: ${sftpHost}
+sftpPort: ${sftpPort}
+sftpUser: ${sftpUser}
+sftpPassword: ${sftpPassword}
+sftp: ${sftp}    
+fileDictamen: ${fileDictamen}
